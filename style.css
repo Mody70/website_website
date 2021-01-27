@@ -1,0 +1,227 @@
+/* start casecading stylesheet*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+/* header of website.................*/
+header{
+    margin-top: -15px;
+    background-color: black;
+    /*background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://mppmduse2pmpovwapp.azurewebsites.net/wp-content/uploads/2019/09/netflix-background-9.jpg");*/
+    height: 98vh;
+    background-size: cover;
+    background-position: center center ;
+    width: 100%;
+    overflow:hidden;
+
+}
+   
+.para{
+    font-family: sans-serif;
+}
+/* end of header.....................*/
+#content{
+    color:white;
+    margin-left: 50px;
+    position: absolute;
+    top:197px;
+    left:80px;
+}
+.logo{
+    margin:15px;
+    padding: 5px;
+    
+}
+.btn{
+    margin:10px;
+    position: relative;
+    top:30px;
+}
+button{
+    font-family: sans-serif;
+    padding: 10px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    outline: 0;
+    cursor: pointer;
+    border-radius:30px;
+    transition:width 2s;
+
+}
+button:hover{
+    width: 200px;
+    background-color: yellow;
+    color: black;
+}
+
+/* start navbar................*/
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 0 35px 0 25px ;
+
+    
+}
+
+
+nav ul{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color:yellow;
+    
+}
+/* end of navbar.................*/
+
+/* CONTENT........................*/
+
+
+.ch{
+    color: yellow;
+    font-size: 30px;
+    
+    
+}
+#ch2{
+    font-size: 30px;
+    color:red;
+    
+}
+/*END CONTENT........................*/
+
+/* icons start*/
+.icons a{
+    color:blue;
+    padding: 10px;
+}
+
+.icons{
+    height:230px;
+   /* background-color: yellow;*/
+    /*margin-left:5px;*/
+    margin-bottom: 10px;
+    display:flex ;
+    flex-direction: row;
+    padding:30px;
+    font-size: 35px;
+    position: absolute ;
+    top:600px;
+    right:-8px;
+    
+}
+.icons .fa-youtube{
+    color: rgba(250, 18, 18, 0.952);
+    
+    
+}
+.icons .fa-google{
+    color:red;
+}
+.icons .fa-twitter{
+    color: deepskyblue;
+}
+/* ends of icons......................*/
+
+/* start search*/
+
+input[type="text"]{
+    
+    width: 500px;
+    outline:0;
+    padding:18px;
+    position: relative;
+    left:320px;
+    top:430px;
+    
+}
+.ser{
+    position: relative;
+    left:130px;
+}
+input[type="button"]{
+    border:1px solid ;
+    background-color: rgb(214, 7, 7);
+    color:white;
+    padding:10px;
+    width:100px;
+    position: relative;
+    top:430px;
+    height:53px;
+    right:282px;
+    outline: 0;
+    cursor:pointer;
+    
+}
+/* end searc.....................*/
+
+h2{
+    color:red;
+    font-family: Arial;
+}
+.cont{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* START SECTION................*/
+
+section{
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+.column{
+    cursor:pointer;
+    padding:5px;
+    box-shadow: 0 4px  7px 0;
+    flex: 15%;
+    margin:30px;
+
+}
+img{
+    height: auto;
+}
+/* END SECTION.....................*/
+
+
+/* START FOOTER*/
+footer{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    bottom:0;
+    color:white;
+    padding:45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer ul li{
+    list-style-type: none;
+}
+strong{
+line-height: 2em;
+}
+
+/* END FOOTER*..........................*/
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
